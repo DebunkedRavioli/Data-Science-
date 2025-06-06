@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/data/athletes_events.csv")
+df = pd.read_csv("data/athletes_events.csv")
 print(df.head())
 
 # Filter for female athletes only

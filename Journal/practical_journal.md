@@ -163,37 +163,6 @@ Number of female participants in that sport: 116662
 
 ### Aggregating with groupby()
 
-Created a new group that shows average weight by Sex and Sport
-
-## Task 6 
-
-### Exporting A Subset 
-
- I have exported:
-
-All athletes under 18
-
-All athletes who won a gold medal
-
-
-### Reflection Journal 
-
-
-What was the easiest filtering task and why?
-
-The most easiest one was filterning Male and Female athletes because there was only two things. 
-
-What was the most difficult grouping or sorting task?
-
-The most difficult was aggregating with group by()
-
-What trends surprised you in the Olympic data?
-
-Trends were that there were more male athletes
-
-What kinds of real-world questions could this kind of analysis help answer?
-
-That more female althletes need to be in the Olympics
 
 
 
