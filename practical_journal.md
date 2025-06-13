@@ -195,14 +195,101 @@ What kinds of real-world questions could this kind of analysis help answer?
 
 That more female althletes need to be in the Olympics
 
+# Internal, Exportinh and Loading Data Files
+
+
+
+    df = pd.DataFrame(data)
+    
+    # Display the DataFrame
+    print("DataFrame:")
+    print(df)
+
+    # Save the DataFrame to a CSV file
+    df.to_csv('sample_data.csv', index=False)
+    print("\nDataFrame saved to 'sample_data.csv'.")
+
+    # Read the DataFrame from the CSV file
+    df_loaded = pd.read_csv('sample_data.csv')
+
+    print("\nDataFrame loaded from 'sample_data.csv':")
+
+    # Display the loaded DataFrame
+    print(df_loaded)
 
 
 
 
+#### Why do you think these three operations are key to working with data and information?
+
+I think these three operations are useful because it can improve your coding skills as well as teach you how to use the dictionary and make new databases on the go.
 
 
 
 
+# Week 4 
+
+## Data Cleaning – Preparing Messy Data
+
+### Task 1: Check for Missing Data
+# Count missing values in each column
 
 
 
+Which 3 columns have the most missing values?
+
+Age, Weight and Height
+
+Why might this happen in real-world Olympic data?
+
+The reason why there might be a lot of missing values in the real Olympics may be because of athletes lying about their age weight and height as they are all factors which can affect their performance in the Olympics. 
+
+
+
+## Task 2: Drop Rows with Critical Missing Data
+
+How many rows did you remove?
+
+I removed 2 rows
+
+What are the pros and cons of dropping data?
+
+The pros is that you can sort through the good data quicker when all the useless one has been dropped but sometimes you might need some of the data in the 'useless code' so it can be bit tricky. 
+
+
+## Task 3: Fill Missing Values (e.g. 'Medal')
+
+
+-Replace missing Weight with average weight
+
+
+
+-Use .median() instead of .mean() and compare
+
+## Task 4: Detect Inconsistent Data
+
+
+-Extra spaces or capitalisation issues
+
+-Typos or strange values
+
+
+## Task 5: Validate and Describe Cleaned Data
+
+Reflection:
+
+Did cleaning improve the dataset?
+
+Yes it did 
+
+What questions could now be answered more confidently?
+
+The Age, Weight and Height of competitors. 
+
+## Task 6: Save the Clean Dataset
+
+Check:
+
+-Open the CSV in Excel or Sheets
+
+-Is it readable, complete, and useful?
